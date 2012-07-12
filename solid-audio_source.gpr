@@ -5,11 +5,15 @@ project Solid.Audio_Source is
       ("solid-audio.ads",
        "solid-audio-analysis.ads",
        "solid-audio-buffers.adb",
+       "solid-audio-buffers.ads",
        "solid-audio-energy.adb",
+       "solid-audio-energy.ads",
        "solid-audio-jack.adb",
+       "solid-audio-jack.ads",
        "solid-audio-jack-thin.ads",
        --"solid-audio-jack-thread.adb",
        "solid-audio-ladspa.ads",
-       "solid-audio-ladspa-host.adb",
+--       "solid-audio-ladspa-host.adb",
+--       "solid-audio-ladspa-host.ads",
        "solid-audio-ladspa-thin.ads");
 end Solid.Audio_Source;
