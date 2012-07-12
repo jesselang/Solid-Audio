@@ -50,7 +50,7 @@ package body Solid.Audio.Buffers is
                end if;
 
                for Index in 0 .. Item'Length - 1 loop
-                  Item (Item'First + Buffer_Size (Index) ) := Data (Ring_Offset + Buffer_Index (Index) );
+                  Item (Item'First + Buffer_Index (Index) ) := Data (Ring_Offset + Buffer_Index (Index) );
                end loop;
             end Get;
 
